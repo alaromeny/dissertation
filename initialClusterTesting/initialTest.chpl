@@ -15,7 +15,7 @@ var size = 100;
 const CyclicProblemSpace = {1..size} dmapped Cyclic(startIdx=1);
 
 //sets the name of the log file, creates it and opens channel to write to it
-var filename: string = "home/sduncan/dissertation/initialTest/testingLog.txt";
+var filename: string = "/home/sduncan/dissertation/initialTest/testingLog.txt";
 var myFile = open(filename, iomode.cw);
 var myWritingChannel = myFile.writer();
 
